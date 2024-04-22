@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+</head>
+<body>
+    <h2>Submit Form</h2>
+    <form action="/submit" method="post">
+        <label for="name">Insert Ringgit:</label><br>
+        RM <input type="number" id="money" name="money" required><br>
+        <label for="email">Select Drink:</label><br>
+        <select name="drinks" id="drinks" required>
+            <option value="pepsi">Pepsi RM 3</option>
+            <option value="coke">Coke RM 4</option>
+            <option value="mountaindew">Mountain Dew RM 2</option>
+            <option value="a&w">A&W RM 4</option>
+          </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
